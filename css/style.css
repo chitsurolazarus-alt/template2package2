@@ -84,6 +84,12 @@ ul{list-style:none;}
 .login-link{color:var(--red)!important; font-weight:700;}
 .hamburger{display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; padding:9px;}
 .hamburger span{width:25px; height:3px; background:var(--charcoal); border-radius:3px; transition:.3s;}
+.hamburger.open span:nth-child(1){transform:translateY(8px) rotate(45deg);}
+.hamburger.open span:nth-child(2){opacity:0;}
+.hamburger.open span:nth-child(3){transform:translateY(-8px) rotate(-45deg);}
+.nav__apply{display:none;}
+.nav__apply .nav__link{background:var(--red); color:#fff!important; text-align:center; margin-top:6px; border-radius:var(--radius);}
+.nav__apply .nav__link:hover{background:var(--red-dark); color:#fff!important;}
 
 /* ---------- Announcement bar ---------- */
 .announce{background:var(--red); color:#fff; overflow:hidden; white-space:nowrap;}

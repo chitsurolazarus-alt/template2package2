@@ -30,10 +30,11 @@
             <li><a class="nav__link" href="gallery.html">Gallery</a></li>
             <li><a class="nav__link" href="downloads.html">Downloads</a></li>
             <li><a class="nav__link" href="contact.html">Contact</a></li>
+            <li class="nav__apply"><a class="nav__link" href="contact.html">Apply Now</a></li>
           </ul>
         </nav>
         <div class="header__actions">
-          <a href="contact.html" class="btn btn--red btn--pulse">Apply Now</a>
+          <a href="contact.html" class="btn btn--red btn--pulse btn--apply">Apply Now</a>
           <button class="dark-toggle" id="darkToggle" aria-label="Toggle dark mode" title="Dark mode">🌙</button>
           <a href="admin.html" class="nav__link login-link">Login</a>
           <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
@@ -127,7 +128,7 @@
   /* ---------- Mobile menu ---------- */
   function initMenu(){
     const ham=$('#hamburger'), list=$('#navList'); if(!ham||!list) return;
-    ham.addEventListener('click',()=> list.classList.toggle('open'));
+    ham.addEventListener('click',()=>{ list.classList.toggle('open'); ham.classList.toggle('open'); });
     list.querySelectorAll('.nav__item--dropdown > .nav__link').forEach(a=>{
       a.addEventListener('click',e=>{ if(window.innerWidth<=880){ e.preventDefault(); a.parentElement.classList.toggle('open'); } });
     });
