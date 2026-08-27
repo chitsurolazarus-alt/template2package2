@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Retail Supervision">
+   <defs><linearGradient id="rtl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F39C12"/><stop offset="1" stop-color="#D7192F"/></linearGradient></defs>
+   <rect width="600" height="400" fill="url(#rtl)"/>
+   <circle cx="500" cy="60" r="90" fill="#ffffff" opacity="0.12"/>
+   <g transform="translate(300,200)" fill="#fff" opacity="0.95"><path d="M-60,-30 H60 L52,60 H-52 Z" fill="#fff"/><path d="M-30,-30 V-50 a30,30 0 0 1 60,0 V-30" stroke="#fff" stroke-width="10" fill="none"/><rect x="-8" y="-10" width="16" height="34" fill="#D7192F"/></g>
+   <text x="40" y="360" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="700" fill="#fff">Retail Supervision</text></svg>

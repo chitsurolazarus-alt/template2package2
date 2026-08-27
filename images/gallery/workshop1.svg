@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Industry Workshop">
+   <defs><linearGradient id="g5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D7192F"/><stop offset="1" stop-color="#F39C12"/></linearGradient></defs>
+   <rect width="800" height="600" fill="url(#g5)"/>
+   <g opacity="0.9" fill="#fff" transform="translate(400,330)"><circle cx="-100" cy="0" r="50" fill="#fff"/><rect x="-130" y="50" width="220" height="80" rx="20" fill="#fff"/><circle cx="140" cy="0" r="50" fill="#fff"/><rect x="40" y="50" width="200" height="80" rx="20" fill="#fff"/></g>
+   <text x="40" y="560" font-family="Poppins,Arial,sans-serif" font-size="28" font-weight="700" fill="#fff">Industry Workshop</text></svg>

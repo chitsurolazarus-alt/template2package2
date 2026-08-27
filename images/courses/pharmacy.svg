@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Pharmacist Assistant">
+   <defs><linearGradient id="pha" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4A4A4A"/><stop offset="1" stop-color="#D7192F"/></linearGradient></defs>
+   <rect width="600" height="400" fill="url(#pha)"/>
+   <circle cx="500" cy="60" r="90" fill="#ffffff" opacity="0.12"/>
+   <g transform="translate(300,200)" fill="#fff" opacity="0.95"><rect x="-30" y="-70" width="60" height="140" rx="8" fill="#fff" stroke="#D7192F" stroke-width="6"/><path d="M-30,-20 H30 M0,-50 V10" stroke="#D7192F" stroke-width="12"/><rect x="-55" y="-30" width="25" height="60" rx="6" fill="#4A4A4A"/><rect x="30" y="-30" width="25" height="60" rx="6" fill="#4A4A4A"/></g>
+   <text x="40" y="360" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="700" fill="#fff">Pharmacist Assistant</text></svg>

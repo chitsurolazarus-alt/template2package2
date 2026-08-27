@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs><linearGradient id="ah" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4A4A4A"/><stop offset="1" stop-color="#D7192F"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#ah)"/>
+  <g transform="translate(800,560)" opacity="0.95">
+    <g transform="translate(-260,0)"><circle cx="0" cy="-150" r="40" fill="#fff"/><rect x="-52" y="-110" width="104" height="240" rx="36" fill="#fff"/><rect x="-62" y="-180" width="124" height="22" rx="6" fill="#D7192F"/></g><g transform="translate(-70,0)"><circle cx="0" cy="-150" r="40" fill="#fff"/><rect x="-52" y="-110" width="104" height="240" rx="36" fill="#fff"/><rect x="-62" y="-180" width="124" height="22" rx="6" fill="#D7192F"/></g><g transform="translate(120,0)"><circle cx="0" cy="-150" r="40" fill="#fff"/><rect x="-52" y="-110" width="104" height="240" rx="36" fill="#fff"/><rect x="-62" y="-180" width="124" height="22" rx="6" fill="#D7192F"/></g><g transform="translate(330,0)"><circle cx="0" cy="-150" r="40" fill="#fff"/><rect x="-52" y="-110" width="104" height="240" rx="36" fill="#fff"/><rect x="-62" y="-180" width="124" height="22" rx="6" fill="#D7192F"/></g>
+  </g>
+  <g opacity="0.15" fill="#fff"><circle cx="180" cy="160" r="90"/><circle cx="1440" cy="740" r="120"/></g></svg>

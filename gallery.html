@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — QT Training (Pty) Ltd</title>
+<meta name="description" content="Photo gallery of QT Training graduations, training sessions, workshops and events.">
+<meta property="og:title" content="Gallery — QT Training">
+<meta property="og:type" content="website">
+<link rel="icon" href="images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<div class="loading" id="loading">
+  <img class="loading__logo" src="images/logo.svg" alt="QT Training">
+  <div class="loading__bar"><div class="loading__fill"></div></div>
+  <div class="loading__text">Preparing your learning experience...</div>
+</div>
+<div id="site-header"></div>
+
+<main id="main">
+  <section class="hero hero--sm">
+    <img class="hero__bg" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="" onerror="this.onerror=null;this.src='images/gallery/graduation2.svg'">
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <h1 class="hero__title">Photo Gallery</h1>
+      <nav class="breadcrumb"><a href="index.html">Home</a><span>›</span><span class="current">Gallery</span></nav>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-btn gallery-filter active" data-filter="all">All</button>
+        <button class="filter-btn gallery-filter" data-filter="Graduations">Graduations</button>
+        <button class="filter-btn gallery-filter" data-filter="Training">Training</button>
+        <button class="filter-btn gallery-filter" data-filter="Workshops">Workshops</button>
+        <button class="filter-btn gallery-filter" data-filter="Events">Events</button>
+      </div>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox__close" aria-label="Close">×</button>
+  <div class="lightbox__img"></div>
+  <div class="lightbox__cap"></div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/search.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/admin.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

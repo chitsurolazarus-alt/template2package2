@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="General Management">
+   <defs><linearGradient id="mgm" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D7192F"/><stop offset="1" stop-color="#F39C12"/></linearGradient></defs>
+   <rect width="600" height="400" fill="url(#mgm)"/>
+   <circle cx="500" cy="60" r="90" fill="#ffffff" opacity="0.12"/>
+   <g transform="translate(300,200)" fill="#fff" opacity="0.95"><circle cx="0" cy="-40" r="28" fill="#fff"/><circle cx="-50" cy="40" r="22" fill="#fff"/><circle cx="50" cy="40" r="22" fill="#fff"/><path d="M0,-12 V20 M0,20 L-50,20 M0,20 L50,20" stroke="#fff" stroke-width="10"/></g>
+   <text x="40" y="360" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="700" fill="#fff">General Management</text></svg>

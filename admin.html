@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard — QT Training</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+<div class="admin">
+  <aside class="admin__sidebar">
+    <div class="admin__brand">QT TRAINING<span>Admin Dashboard — Demo</span></div>
+    <nav class="admin__nav">
+      <a data-tab="dashboard" class="active">📊 Dashboard</a>
+      <div class="grp">Content Management</div>
+      <a data-tab="courses">📚 Courses</a>
+      <a data-tab="news">📰 News</a>
+      <a data-tab="testimonials">💬 Testimonials</a>
+      <a data-tab="gallery">🖼 Gallery</a>
+      <a data-tab="downloads">⬇ Downloads</a>
+      <div class="grp">Management</div>
+      <a data-tab="enquiries">✉ Enquiries</a>
+      <a data-tab="users">👤 Users</a>
+      <a data-tab="subscribers">📧 Subscribers</a>
+      <a data-tab="settings">⚙ Settings</a>
+    </nav>
+    <div class="admin__user"><span>Logged in as Admin</span><button onclick="location.href='index.html'">Exit</button></div>
+  </aside>
+
+  <div class="admin__main">
+    <div class="admin__topbar">
+      <h1>Dashboard</h1>
+      <div class="who">Welcome back, Boitumelo 👋</div>
+    </div>
+    <div class="admin__content" id="adminContent"></div>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

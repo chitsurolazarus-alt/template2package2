@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qttraining.co.za/sitemap.xml

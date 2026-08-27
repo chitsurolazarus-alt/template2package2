@@ -1,0 +1,47 @@
+/* =========================================================
+   QT TRAINING — responsive.css   (mobile-first adjustments)
+   ========================================================= */
+
+/* Large desktop */
+@media (max-width:1100px){
+  .footer__grid{grid-template-columns:1fr 1fr;}
+  .gallery-grid{columns:2;}
+}
+
+/* Tablet */
+@media (max-width:880px){
+  .hamburger{display:flex;}
+  .header__actions .btn--apply{display:none;}
+  .nav__list{order:3;}
+  .grid-3,.grid-4,.contact-cards{grid-template-columns:repeat(2,1fr);}
+  .promo__grid,.grid-2,.mission-vision{grid-template-columns:1fr;}
+  .stats{grid-template-columns:repeat(2,1fr);}
+  .testi-slide{min-width:calc(50% - 13px);}
+  .section{padding:60px 0;}
+  .hero{min-height:80vh;}
+}
+
+/* Mobile */
+@media (max-width:620px){
+  .container{padding:0 16px;}
+  .grid-3,.grid-4,.grid-2,.contact-cards,.info-list,.stats{grid-template-columns:1fr;}
+  .footer__grid{grid-template-columns:1fr;}
+  .testi-slide{min-width:100%;}
+  .gallery-grid{columns:1;}
+  .hero__btns{flex-direction:column; align-items:stretch;}
+  .hero__btns .btn{width:100%;}
+  .countdown{flex-wrap:wrap;}
+  .countdown__box{min-width:64px; flex:1;}
+  .newsletter{flex-direction:column;}
+  .newsletter .btn{width:100%;}
+  .cookie{flex-direction:column; align-items:flex-start;}
+  .back-to-top{right:78px;}
+  .section__title{font-size:26px;}
+  .footer__bottom{font-size:12px;}
+}
+
+/* very small */
+@media (max-width:380px){
+  .brand__tag{display:none;}
+  .brand__name{font-size:18px;}
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Courses — QT Training (Pty) Ltd</title>
+<meta name="description" content="Browse QT Training's accredited courses: End User Computing, New Venture Creation, General Management, Retail Supervision, Pharmacist Assistant, Plant Production, Assessor & Moderator and Computer Skills.">
+<meta property="og:title" content="Courses — QT Training">
+<meta property="og:type" content="website">
+<link rel="icon" href="images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+<script type="application/ld+json">
+{ "@context":"https://schema.org", "@type":"ItemList", "name":"QT Training Courses" }
+</script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<div class="loading" id="loading">
+  <img class="loading__logo" src="images/logo.svg" alt="QT Training">
+  <div class="loading__bar"><div class="loading__fill"></div></div>
+  <div class="loading__text">Preparing your learning experience...</div>
+</div>
+<div id="site-header"></div>
+
+<main id="main">
+  <section class="hero hero--sm">
+    <img class="hero__bg" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="" onerror="this.onerror=null;this.src='images/courses/end-user-computing.svg'">
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <h1 class="hero__title">Our Training Programmes</h1>
+      <nav class="breadcrumb"><a href="index.html">Home</a><span>›</span><span class="current">Courses</span></nav>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="live-search">
+        <input type="text" placeholder="Search courses..." aria-label="Search courses">
+        <span class="ic">🔍</span>
+        <div class="search-results"></div>
+      </div>
+      <div class="filter-bar" id="courseFilter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="available">Available</button>
+        <button class="filter-btn" data-filter="free">Free</button>
+        <button class="filter-btn" data-filter="sponsored">Sponsored</button>
+        <button class="filter-btn" data-filter="offer">Special Offer</button>
+      </div>
+      <div class="grid-3" id="coursesGrid"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="js/data.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/search.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/admin.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

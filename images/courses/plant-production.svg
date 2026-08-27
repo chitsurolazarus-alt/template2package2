@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Plant Production">
+   <defs><linearGradient id="plt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#27AE60"/><stop offset="1" stop-color="#4A4A4A"/></linearGradient></defs>
+   <rect width="600" height="400" fill="url(#plt)"/>
+   <circle cx="500" cy="60" r="90" fill="#ffffff" opacity="0.12"/>
+   <g transform="translate(300,200)" fill="#fff" opacity="0.95"><path d="M0,70 V0" stroke="#fff" stroke-width="10"/><path d="M0,-10 q-50,-6 -56,-56 q44,0 56,56z" fill="#27AE60"/><path d="M0,-26 q50,-6 56,-44 q-44,0 -56,44z" fill="#fff"/><path d="M-60,70 h120 l-16,-26 h-88z" fill="#4A4A4A"/></g>
+   <text x="40" y="360" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="700" fill="#fff">Plant Production</text></svg>

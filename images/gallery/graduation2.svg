@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Class of 2024">
+   <defs><linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4A4A4A"/><stop offset="1" stop-color="#D7192F"/></linearGradient></defs>
+   <rect width="800" height="600" fill="url(#g2)"/>
+   <g opacity="0.9" fill="#fff" transform="translate(400,330)"><g transform="translate(0,0)"><circle cx="-120" cy="-30" r="40" fill="#fff"/><rect x="-160" y="10" width="80" height="120" rx="24" fill="#fff"/><circle cx="40" cy="-30" r="40" fill="#fff"/><rect x="0" y="10" width="80" height="120" rx="24" fill="#fff"/><circle cx="200" cy="-30" r="40" fill="#fff"/><rect x="160" y="10" width="80" height="120" rx="24" fill="#fff"/></g></g>
+   <text x="40" y="560" font-family="Poppins,Arial,sans-serif" font-size="28" font-weight="700" fill="#fff">Class of 2024</text></svg>

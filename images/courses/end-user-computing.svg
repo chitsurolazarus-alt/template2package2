@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="End User Computing">
+   <defs><linearGradient id="euc" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D7192F"/><stop offset="1" stop-color="#4A4A4A"/></linearGradient></defs>
+   <rect width="600" height="400" fill="url(#euc)"/>
+   <circle cx="500" cy="60" r="90" fill="#ffffff" opacity="0.12"/>
+   <g transform="translate(300,200)" fill="#fff" opacity="0.95"><rect x="-70" y="-50" width="140" height="90" rx="8" fill="#fff"/><rect x="-56" y="-36" width="112" height="56" rx="4" fill="#D7192F"/><rect x="-30" y="44" width="60" height="14" rx="6" fill="#fff"/><rect x="-46" y="58" width="92" height="10" rx="5" fill="#fff"/></g>
+   <text x="40" y="360" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="700" fill="#fff">End User Computing</text></svg>

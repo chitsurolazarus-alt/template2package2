@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News &amp; Announcements — QT Training (Pty) Ltd</title>
+<meta name="description" content="Latest news, events, graduations and sponsorships from QT Training (Pty) Ltd.">
+<meta property="og:title" content="News — QT Training">
+<meta property="og:type" content="website">
+<link rel="icon" href="images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<div class="loading" id="loading">
+  <img class="loading__logo" src="images/logo.svg" alt="QT Training">
+  <div class="loading__bar"><div class="loading__fill"></div></div>
+  <div class="loading__text">Preparing your learning experience...</div>
+</div>
+<div id="site-header"></div>
+
+<main id="main">
+  <section class="hero hero--sm">
+    <img class="hero__bg" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&amp;fit=crop&amp;w=1600&amp;q=70" alt="" onerror="this.onerror=null;this.src='images/news/news1.svg'">
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <h1 class="hero__title">Latest News &amp; Announcements</h1>
+      <nav class="breadcrumb"><a href="index.html">Home</a><span>›</span><span class="current">News</span></nav>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-3" id="newsGrid"></div>
+    </div>
+  </section>
+
+  <section class="section section--soft">
+    <div class="container center">
+      <h2 class="section__title">Stay Updated</h2>
+      <p class="section__sub">Subscribe to receive QT Training news in your inbox.</p>
+      <form class="newsletter" id="newsPageForm" style="max-width:460px;margin:20px auto 0;">
+        <input type="email" placeholder="Your email" required aria-label="Email">
+        <button class="btn btn--red" type="submit">Subscribe</button>
+      </form>
+      <div class="form__success" id="newsPageMsg" style="display:none;max-width:460px;margin:14px auto 0;">Thanks for subscribing!</div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="js/data.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/search.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/admin.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.getElementById('newsPageForm').addEventListener('submit',function(e){
+    e.preventDefault();
+    var email=this.querySelector('input').value.trim();
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ alert('Please enter a valid email.'); return; }
+    if(!QT.state.subscribers.find(function(s){return s.email===email;})){
+      QT.state.subscribers.push({id:QT.nextId(QT.state.subscribers),email:email,date:QT.formatDate(),status:'Active'}); QT.save();
+    }
+    document.getElementById('newsPageMsg').style.display='block'; this.reset();
+    setTimeout(function(){document.getElementById('newsPageMsg').style.display='none';},4000);
+  });
+</script>
+</body>
+</html>

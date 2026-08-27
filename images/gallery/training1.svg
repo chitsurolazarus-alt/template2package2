@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Hands-on Training">
+   <defs><linearGradient id="g3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2980B9"/><stop offset="1" stop-color="#4A4A4A"/></linearGradient></defs>
+   <rect width="800" height="600" fill="url(#g3)"/>
+   <g opacity="0.9" fill="#fff" transform="translate(400,330)"><rect x="-220" y="-40" width="440" height="180" rx="12" fill="#fff" opacity="0.9"/><g fill="#D7192F"><circle cx="-150" cy="-10" r="18"/><circle cx="-30" cy="-10" r="18"/><circle cx="90" cy="-10" r="18"/><circle cx="190" cy="-10" r="18"/></g></g>
+   <text x="40" y="560" font-family="Poppins,Arial,sans-serif" font-size="28" font-weight="700" fill="#fff">Hands-on Training</text></svg>

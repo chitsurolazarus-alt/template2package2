@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Computer Skills">
+   <defs><linearGradient id="cmp" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4A4A4A"/><stop offset="1" stop-color="#D7192F"/></linearGradient></defs>
+   <rect width="600" height="400" fill="url(#cmp)"/>
+   <circle cx="500" cy="60" r="90" fill="#ffffff" opacity="0.12"/>
+   <g transform="translate(300,200)" fill="#fff" opacity="0.95"><circle cx="0" cy="0" r="60" fill="#fff" stroke="#D7192F" stroke-width="8"/><path d="M-22,-10 l12,12 28,-30 M0,40 V0" stroke="#4A4A4A" stroke-width="9" fill="none" stroke-linecap="round"/></g>
+   <text x="40" y="360" font-family="Poppins,Arial,sans-serif" font-size="26" font-weight="700" fill="#fff">Computer Skills</text></svg>
